@@ -1,0 +1,380 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background: black;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navlogo a {
+    font-size: 35px;
+    font-family: "Pacifico", cursive;
+    color: yellow;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li a:hover {
+    color: orangered;
+}
+
+header {
+    height: 700px;
+    background-color: blue;
+}
+
+.head {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.btn button {
+    height: 40px;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background: black;
+}
+
+button:hover {
+    background: linear-gradient(rgba(255, 0, 0, 0.891), rgba(47, 128, 0, 0.887), rgba(0, 4, 255, 0.758), rgb(222, 6, 230));
+    box-shadow: 0px 0px 20px black;
+}
+
+.btn {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bg1 {
+    height: 100%;
+    background-color: rgba(190, 185, 185, 0.589);
+    padding-bottom: 50px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    height: 320px;
+    width: 300px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.box img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.box h2 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.461);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.title1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box1 {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.box1 img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box1 h2 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.461);
+}
+
+.card-body p {
+    text-align: center;
+    color: red;
+}
+
+.card2 {
+    background: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+}
+
+.bg2 {
+    background-color: rgba(0, 0, 0, 0.973);
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.title2 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card3 {
+    background: rgba(0, 0, 0, 0.772);
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 15px 5px rgb(30, 30, 30);
+    margin-bottom: 20px;
+}
+
+.card3 p {
+    color: white;
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-body1 p {
+    color: red;
+    align-items: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlogo a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    li a {
+        margin-right: 0;
+    }
+
+    .head {
+        padding-top: 150px;
+        font-size: 22px;
+    }
+
+    .btn button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .card2,
+    .card3 {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .box,
+    .box1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .box img,
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title,
+    .title1,
+    .title2 {
+        font-size: 24px;
+    }
+
+    header {
+        height: 500px;
+    }
+}
+
+/* media screen */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlogo a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    li a {
+        margin-right: 0;
+    }
+
+    .head {
+        padding-top: 150px;
+        font-size: 22px;
+    }
+
+    .btn button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .card2,
+    .card3 {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .box,
+    .box1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .box img,
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title,
+    .title1,
+    .title2 {
+        font-size: 24px;
+    }
+
+    header {
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navdiv {
+        justify-content: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .btn button {
+        width: 90px;
+        height: 35px;
+    }
+
+    .head {
+        padding-top: 100px;
+        font-size: 20px;
+    }
+
+    header {
+        height: 400px;
+    }
+
+    .card,
+    .card2,
+    .card3 {
+        width: 95%;
+        max-width: 280px;
+    }
+
+    .title,
+    .title1,
+    .title2 {
+        font-size: 20px;
+    }
+
+    .bg2 {
+        height: 100%;
+    }
+}
